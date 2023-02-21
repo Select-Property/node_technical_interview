@@ -55,7 +55,7 @@ When we are retrieve blog posts we also need to pull it's outreach information f
 
 ## Submission Guidelines
 
-* The zip file should be named {yourname}.zip, and should itself contain the full-stack-recruitment-test project folder with your submission.
+* The zip file should be named {yourname}.zip, and should itself contain the node tech test project folder with your submission.
 
 * The zip file should contain the [FOLLOW-UP.md](./FOLLOW-UP.md) file with answers to the follow-up questions.
 

@@ -29,6 +29,7 @@ Create a database schema for a simple blog application with the following models
 User: Fields: username, email, password.
 
 Post: Fields: title, content, author_id, outreach_id, created_at.
+
 Write a script to seed the database with sample data for testing.
 
 Write a function getPostsByAuthor that returns all posts by a given author's username. The function should accept a username as an argument and return an array of post objects.

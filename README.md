@@ -1,10 +1,14 @@
 # Vita Group - Node JS Coding Challenge
 
-Thanks for taking the time to do our node engineering test. The challenge has two parts:
+Thanks for taking the time to do our node engineering test.
 
-This test is intended to evaluate your skills and knowledge in Node.js development. You are free to use any resources or references you want, except for direct help from others.
+You are free to use any resources or references you want, except for direct help from others.
 
 You can use any development environment or tools that you feel comfortable with.
+
+**Bonus Points**
+
+* Using Typescript
 
 ----
 
@@ -55,9 +59,9 @@ Write unit tests for the getPostsByAuthor function from Exercise 2 using any tes
 
 When we retrieve a blog posts we also need to make an extra request to retreive it's outreach information from a thrid party service. 
 
-Currently this is not a problem with there being such low numbers of blog posts per aurthor, but in the future this may become a problem when we have a larger number of posts. 
+Currently this is not an issue with there being a low number of blog posts per aurthor, but in the future this may become a problem with the number of posts increasing. 
 
-The latency per request to the thrid party is unknown. Can you provide any solutions in how we could tackle this problem in the future?
+The latency per request to the thrid party is unknown. Can you provide any solutions for how we could tackle this problem?
 
 ----
 

@@ -27,6 +27,7 @@ Create a simple authentication system with the following endpoints:
 Create a database schema for a simple blog application with the following models:
 
 User: Fields: username, email, password.
+
 Post: Fields: title, content, author_id, outreach_id, created_at.
 Write a script to seed the database with sample data for testing.
 

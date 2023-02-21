@@ -26,13 +26,15 @@ Create a simple authentication system with the following endpoints:
 
 Create a database schema for a simple blog application with the following models:
 
-User: Fields: username, email, password.
+User: Fields: `username`, `email`, `password`.
 
-Post: Fields: title, content, author_id, outreach_id, created_at.
+Post: Fields: `title`, `content`, `author_id`, `outreach_id`, `created_at`.
 
 Write a script to seed the database with sample data for testing.
 
-Write a function getPostsByAuthor that returns all posts by a given author's username. The function should accept a username as an argument and return an array of post objects.
+Write a function getPostsByAuthor that returns all posts by a given author's username.
+
+The function should accept a username as an argument and return an array of post objects.
 
 Example usage:
 
@@ -51,7 +53,11 @@ Write unit tests for the getPostsByAuthor function from Exercise 2 using any tes
 
 ## Exercise 4: Request Latency
 
-When we are retrieve blog posts we also need to pull it's outreach information from a thrid party service. Currently this is not a problem with there being such low numbers of blog posts per aurthor, but in the future this may become a problem when pulling a large number of posts. The latency per request to the thrid party is unknown. How would we resolve this problem in the future.
+When we retrieve a blog posts we also need to make an extra request to retreive it's outreach information from a thrid party service. 
+
+Currently this is not a problem with there being such low numbers of blog posts per aurthor, but in the future this may become a problem when we have a larger number of posts. 
+
+The latency per request to the thrid party is unknown. Can you provide any solutions in how we could tackle this problem in the future?
 
 ----
 

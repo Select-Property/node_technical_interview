@@ -1,4 +1,4 @@
-# Vita Group - Inventory Page Coding Challenge
+# Vita Group - Node JS Coding Challenge
 
 Thanks for taking the time to do our node engineering test. The challenge has two parts:
 
